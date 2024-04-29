@@ -10,3 +10,4 @@ Repositorio para Codo a Codo - Equipo
 ## Proyecto:
 
 Lavandaría
+## Funcionalidades
