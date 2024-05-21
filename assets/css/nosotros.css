@@ -55,11 +55,13 @@ section{
 section img{
     width: 25%;
     margin: 10px;
-    float: right;
     display: inline-block;
 }
 .conteiner{
     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .conteiner h1{
@@ -70,11 +72,13 @@ section img{
 }
 
 .parrafo p{
-    font: 16px Ubuntu,sans-serif;
-    color: #fff;
+    font: 18px Ubuntu,sans-serif;
+    color:black;
     float: left;
     text-align: center;
     margin: 10px 20px;  
+    
+
 }
 .tituloPlanes h1{
     font: 40px Ubuntu,sans-serif;
@@ -88,26 +92,42 @@ section img{
     align-content: center;
     justify-content: center;
 }
-.standar{
+.crece{
     width: 300px;
     height: 300px;
     margin: 10px 10px 20px 10px;
     float: left;
     border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: darkcyan;
 }
-.platinum{
+.gana{
     width: 300px;
     height: 300px;
     margin: 10px 10px 20px 10px;
     float: left;
     border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgreen;
 }
-.dorado{
+
+.sumate{
     width: 300px;
     height: 300px;
     margin: 10px 10px 20px 10px;
     float: left;
     border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: coral;
 }
 
 h2{
@@ -116,23 +136,37 @@ h2{
     margin: 20px;
 }
 .planes p{
-    font: 14px ubuntu,sans-serif;
+    font: 18px ubuntu,sans-serif;
     text-align: center;
     margin: 10px;
 }
-.planes button {
-    border: none;
-    border-radius: 8px;
-    background-color: cadetblue;
-    color: white;
-    font-weight: 600;
-    padding: 14px 20px;
-    width: 120px;
-    margin-bottom: 0;
+.planes a {
+    
     display: flex;
     vertical-align: middle;
     box-sizing: border-box;
     word-wrap: break-word;
     position: relative;
     
+}
+.video{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.video h1{
+
+    font: 40px Ubuntu,sans-serif;
+        color: black !important;
+        margin: 10px 20px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+}
+video{
+    height: auto;
+    width: 50%;
+    align-content: center;
 }
