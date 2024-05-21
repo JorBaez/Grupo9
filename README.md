@@ -8,4 +8,4 @@ Repositorio para Codo a Codo - Equipo
 - Vasquez, Lorena
 
 ## Proyecto:
-
+El proyecto elegido es ....
