@@ -24,12 +24,14 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 .nav-links {
     list-style: none;
     display: flex;
-    gap: 1em;
+    margin-bottom: 0px;
+
 }
 
 .nav-links li a {
@@ -59,17 +61,16 @@ footer {
 
 .form-container {
     display: flex;
-    flex-direction: column; /* Cambia la dirección del flex para que los elementos estén uno debajo del otro */
-    justify-content: center; /* Centra los elementos horizontalmente */
-    align-items: center; /* Centra los elementos verticalmente */
-    background-color: #f0f0f0; /* Un color de fondo opcional para el contenedor */
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0; 
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
-/* Estilo para el encabezado */
 .form-container h2 {
-    margin-bottom: 20px; /* Añade un margen inferior para separar el encabezado del formulario */
+    margin-bottom: 20px; 
 }
 
 form {
@@ -79,8 +80,8 @@ form {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 50%;
-    margin: 0 auto; /* Centra el formulario horizontalmente */
-    padding: 20px; /* Añade un poco de espacio interior */
+    margin: 0 auto; 
+    padding: 20px;
 }
 
 form label, 
